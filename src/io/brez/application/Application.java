@@ -1,6 +1,8 @@
 package io.brez.application;
 
 public class Application {
+	boolean DEMO_MODE = true;
+	
 	public String name() {
 		return "My Application";
 	}
@@ -14,6 +16,6 @@ public class Application {
 	}
 	
 	private boolean isDemoMode() {
-		return true;
+		return DEMO_MODE;
 	}
 }
