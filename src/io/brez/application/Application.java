@@ -8,7 +8,7 @@ public class Application {
 	}
 	
 	public boolean isWorking() {
-		return isDemoMode() || !isBroken();
+		return isDemoMode() && !isBroken();
 	}
 	
 	private boolean isBroken() {
