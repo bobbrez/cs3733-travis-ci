@@ -12,7 +12,7 @@ public class Application {
 	}
 	
 	private boolean isBroken() {
-		return false;
+		return true;
 	}
 	
 	private boolean isDemoMode() {
