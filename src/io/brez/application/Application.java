@@ -1,7 +1,7 @@
 package io.brez.application;
 
 public class Application {
-	boolean DEMO_MODE = true;
+	boolean DEMO_MODE = false;
 	
 	public String name() {
 		return "My App";
