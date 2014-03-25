@@ -4,7 +4,7 @@ public class Application {
 	boolean DEMO_MODE = true;
 	
 	public String name() {
-		return "My Application";
+		return "My App";
 	}
 	
 	public boolean isWorking() {
