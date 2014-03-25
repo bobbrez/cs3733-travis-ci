@@ -2,7 +2,7 @@ package io.brez.application;
 
 public class Application {
 	boolean DEMO_MODE = false;
-	boolean BROKEN = true;
+	boolean BROKEN = false;
 	
 	public String name() {
 		return "My App";
