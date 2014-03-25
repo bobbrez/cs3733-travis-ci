@@ -20,9 +20,13 @@ public class Application {
 		return DEMO_MODE;
 	}
 	
+	public String text() {
+		return isBroken() ? "BROKEN" : "Totally Fine!";
+	}
+	
 	public static void main(String [] args) {
 		Application app = new Application();
-		String text = app.isBroken() ? "BROKEN" : "Totally Fine!";
-		System.out.println("This application is " + text);
+		
+		System.out.println("This application is " + app.text() );
 	}
 }
