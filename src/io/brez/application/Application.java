@@ -2,10 +2,14 @@ package io.brez.application;
 
 public class Application {
 	public boolean isWorking() {
-		return !isBroken();
+		return isDemoMode() || !isBroken();
 	}
 	
 	private boolean isBroken() {
 		return false;
+	}
+	
+	private boolean isDemoMode() {
+		return true;
 	}
 }
